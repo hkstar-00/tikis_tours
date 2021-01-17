@@ -1,0 +1,325 @@
+body{
+background: #FFFFFF;
+    margin:0;
+    padding: 0px;
+    height: auto;
+    width: 100%;
+    font-size: 3vw;
+}
+
+/***.link-title{
+    text-decoration: none;
+    font-size: 30px;
+    color: #444444;
+}
+
+/****.page-heading{
+
+    text-align: center;]
+    margin-bottom: 20px;
+}
+*****/
+/***.container{
+    width: 780px;
+    margin: 0 auto;
+    background: #FFF;
+    box-shadow: 0px 9px 13px 5px;
+    }
+
+.header{
+    padding:  45px 0 20px 40px;
+    }
+
+#logo{
+    float: left;
+    width: 250%;
+    height: 158px;
+    padding-left: 50px;
+}
+
+/*****img.ri{
+    width: 130px;
+    margin: 0 0 0 -65px;
+    position: relative;
+    left: 50%;
+}
+.menu{
+width: 70%;
+height:100px;
+float: right;
+}
+
+.menu ul{
+    margin-left: 200px;
+}
+
+.menu ul li{
+
+    color: #000000;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    line-height: 100px;
+    margin-left: 40px;
+    margin-top: 18px;
+}
+
+.menu ul li:hover{
+    color:#ecf2f3;
+
+}****/
+/****aside{
+
+    float: left;
+    width: 120px;
+    padding: 30px 0 0 40px;
+}******/
+
+.menu{
+    width: 100%;
+    height: 100px;
+    background-color:#ebfaed;
+    margin: 0px;
+}
+
+.leftmenu{
+    width: 20%;
+    line-height: 100px;
+    float: left;
+}
+
+.leftmenu h4{
+    padding-left: 70px;
+    font-weight: bold;
+    color: white;
+    font-size: 22px;
+    font-family: 'Montserrat', Sans-serif;
+    margin-top: 8px;
+}
+.rightmenu{
+    width: 70%;
+    height: 100px;
+    float: right;
+}
+
+.rightmenu ul{
+    margin-left: 200px;
+}
+.rightmenu ul li{
+    font-family:  'Montserrat', Sans-serif;
+    display: inline-block;
+    list-style: none;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 90px;
+    margin-left: 40px;
+}
+#firstlist{
+    color: lawngreen;
+}
+.rightmenu ul li a:hover{
+    color: #ed02da;
+}
+.rightmenu ul li a{
+    text-decoration: none;
+    color: #3b0469;
+}
+
+/****.text{
+    margin-left: 50px;
+    margin-top: 50px;
+
+
+}
+.text h1{
+    color: #869843;
+    font-size: 24px;
+    font-family: "Arial Narrow","Myriad Pro";
+    font-weight: bold;
+}
+
+.text h2{
+    color: #025c2c;
+    font-size: 60px;
+    font-family: "Garamond", serif;
+    font-weight: 700px;
+    padding: 50px;
+
+}
+.text h3{
+    color: #000000;
+    font-size: 20px;
+    font-family: "Arial Narrow","Myriad Pro";
+    font-weight: 200px;
+    padding-bottom: 20%;
+}*****/
+
+#region_detail .banner{
+    position: relative;
+    background-size: cover;
+}
+
+#region_detail .banner .mask{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right:0;
+    background-color:
+}
+#region_detail .banner .box{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    transform: translate(0,-50%);
+    text-align: center;
+    }
+#region_detail .banner .box h1{
+    font-size: 60px;
+    font-family: "Garamond", serif;
+    color: #FFFFFF;
+    font-weight: 700;
+    width: 60%;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 30px;
+}
+div{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color:#404040;
+
+}
+#region_detail .banner .box a{
+    display: inline-block;
+    clear: both;
+    border: #ffffff solid 3px;
+    font-size: 33px;
+    padding: 8px 20px 8px 20px;
+    color: #ffffff;
+    text-decoration-line: none;
+    }
+#region_detail .calltoaction{
+    padding-bottom: 80px;
+    border-bottom: #ccc solid 1px;
+
+}
+
+#region_detail .banner .box a:hover{
+ color: #ed02da;
+}
+/***.main{
+    padding: 35px 40px 30px 0px;
+    color: #444444;
+    font-family: "Georgia";
+    font-size: 13px;
+    line-height: 18px;
+    text-emphasis: "justify";
+
+}
+
+.main a:hover{
+    color: #444444;
+}
+
+#home-image img{
+
+   background: linear-gradient(rgba(0,15,0,0.3),rgba(0,0,5,0.3)), url(limestone.jpg);
+	background-size: 100% 110%;
+	width: 100%;
+	height: 50vh;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: table;
+
+}***/
+
+
+footer {
+    padding: 6px 40px 6px 40px;
+    background: #000000;
+    font-family: "Lucida Sans Unicode";
+    color: #FFFFFF;
+    font-size: 15px;
+    text-decoration: right;
+}
+footer a img{
+     padding-left: 150%;
+     margin-top: 50px;
+    margin-left: 100px;
+}
+.f-base{
+    color: #FFFFFF;
+
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-top: -40px;
+}
+#copyright{
+    padding-top: 100px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color:#404040;
+}
+.separator{
+    color: #404040;
+    font-size: 11px;
+}
+
+
+/********** About Page Styles *******/
+
+#about-page #home-image img{
+
+    width: 70%;
+    float: left;
+    margin-bottom: 20px;
+}
+
+#about-page #profile-info{
+    float: right;
+    width: 20%;
+    margin: 5px;
+}
+#about-page .description{
+    clear: both;
+
+}
+
+/******** Contact Page Styles *********/
+
+#contact #form {
+
+     width: 500px;
+     padding: 10px 10px 10px 10px;
+     margin: 0 auto;
+     box-shadow: 0px 9px 13px 5px;
+     border-radius: 5px;
+}
+
+#contact #form input {
+    width: 100%;
+    border-radius: 5px;
+    height: 20px;
+    background: #D6D6D6;
+}
+#contact #form #message {
+    width: 100%;
+    border-radius: 5px;
+    height: 20px;
+    background: #D6D6D6;
+}
+
+#contact #form #submit {
+    height: 30px;
+    background: rgb(59, 118, 135);
+}
+
