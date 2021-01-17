@@ -97,6 +97,7 @@ float: right;
     font-family: 'Montserrat', Sans-serif;
     margin-top: 8px;
 }
+
 .rightmenu{
     width: 70%;
     height: 100px;
@@ -106,6 +107,7 @@ float: right;
 .rightmenu ul{
     margin-left: 200px;
 }
+
 .rightmenu ul li{
     font-family:  'Montserrat', Sans-serif;
     display: inline-block;
@@ -115,12 +117,13 @@ float: right;
     line-height: 90px;
     margin-left: 40px;
 }
-#firstlist{
+/****#firstlist{
     color: lawngreen;
-}
+}***/
 .rightmenu ul li a:hover{
     color: #ed02da;
 }
+
 .rightmenu ul li a{
     text-decoration: none;
     color: #3b0469;
@@ -155,12 +158,12 @@ float: right;
     padding-bottom: 20%;
 }*****/
 
-#region_detail .banner{
+#home_detail .banner{
     position: relative;
     background-size: cover;
 }
 
-#region_detail .banner .mask{
+#home_detail .banner .mask{
     position: absolute;
     top: 0;
     bottom: 0;
@@ -168,7 +171,8 @@ float: right;
     right:0;
     background-color:
 }
-#region_detail .banner .box{
+
+#home_detail .banner .box{
     position: absolute;
     top: 50%;
     left: 0;
@@ -176,7 +180,8 @@ float: right;
     transform: translate(0,-50%);
     text-align: center;
     }
-#region_detail .banner .box h1{
+
+#home_detail .banner .box h1{
     font-size: 60px;
     font-family: "Garamond", serif;
     color: #FFFFFF;
@@ -186,6 +191,7 @@ float: right;
     text-align: center;
     margin-bottom: 30px;
 }
+
 div{
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
@@ -193,7 +199,8 @@ div{
     color:#404040;
 
 }
-#region_detail .banner .box a{
+
+#home_detail .banner .box a{
     display: inline-block;
     clear: both;
     border: #ffffff solid 3px;
@@ -202,13 +209,14 @@ div{
     color: #ffffff;
     text-decoration-line: none;
     }
-#region_detail .calltoaction{
+
+#home_detail .calltoaction{
     padding-bottom: 80px;
     border-bottom: #ccc solid 1px;
 
 }
 
-#region_detail .banner .box a:hover{
+#home_detail .banner .box a:hover{
  color: #ed02da;
 }
 /***.main{
@@ -246,29 +254,36 @@ footer {
     font-size: 15px;
     text-decoration: right;
 }
-footer a img{
+
+/*
+.footer a img{
      padding-left: 150%;
      margin-top: 50px;
-    margin-left: 100px;
+     margin-left: 100px;
 }
+*/
+
 .f-base{
     color: #FFFFFF;
-
 }
+
 .row {
     display: flex;
     flex-wrap: wrap;
     margin-right: -15px;
     margin-left: -15px;
-    margin-top: -40px;
+/*    margin-top: -40px;*/
+    justify-content: space-around;
 }
+
 #copyright{
-    padding-top: 100px;
+    padding-top: 5.5%;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 13px;
     color:#404040;
 }
+
 .separator{
     color: #404040;
     font-size: 11px;
@@ -289,9 +304,9 @@ footer a img{
     width: 20%;
     margin: 5px;
 }
+
 #about-page .description{
     clear: both;
-
 }
 
 /******** Contact Page Styles *********/
@@ -311,10 +326,11 @@ footer a img{
     height: 20px;
     background: #D6D6D6;
 }
+
 #contact #form #message {
     width: 100%;
     border-radius: 5px;
-    height: 20px;
+    height: px;
     background: #D6D6D6;
 }
 
