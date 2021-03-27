@@ -1,5 +1,5 @@
 body{
-background: #FFFFFF;
+    background: #FFFFFF;
     margin:0;
     padding: 0px;
     height: auto;
@@ -7,18 +7,19 @@ background: #FFFFFF;
     font-size: 3vw;
 }
 
+.container{
+    margin: 0 auto;
+    padding: 0;
+    background: #FFFFFF;
+    }
+
 /***.link-title{
     text-decoration: none;
     font-size: 30px;
     color: #444444;
 }
 
-/****.page-heading{
 
-    text-align: center;]
-    margin-bottom: 20px;
-}
-*****/
 /***.container{
     width: 780px;
     margin: 0 auto;
@@ -244,7 +245,14 @@ div{
 	display: table;
 
 }***/
-
+.page-heading{
+    text-align: lef;
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+    color: #37b54b;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
 
 footer {
     padding: 6px 40px 6px 40px;
@@ -289,12 +297,94 @@ footer {
     font-size: 11px;
 }
 
+#intro_detail .banner .mask{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right:0;
+    background-color:
+}
 
-/********** About Page Styles *******/
+#intro_detail .banner .box{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    transform: translate(0,-50%);
+    text-align: center;
+    }
 
-#about-page #home-image img{
+#intro_detail .banner{
+    background-size: cover;
+    position: relative;
+}
 
-    width: 70%;
+#intro_detail .banner .box h1{
+    font-size: 60px;
+    font-family: "Garamond", serif;
+    color: #FFFFFF;
+    font-weight: 700;
+    width: 60%;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.content body{
+    clear: both;
+    margin: auto;
+    margin-top: 20px;
+    width: 90%;
+    height: 500px;
+    background-color: transparent;
+}
+.columns{
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+
+.large-two{
+    margin-top: 50px;
+    margin-left: 100px;
+    background-color: transparent;
+    width: 85%;
+}
+.content-space{
+    margin-top: 13px;
+    margin-bottom: 50px;
+}
+
+h1{
+    font-size: 52px;
+    font-weight: bold;
+    color: #000000;
+}
+
+h2{
+    font-family: "Garamond", serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #37b54b;
+    margin: 20 0 25px 0;
+    clear: right;
+}
+
+p{
+    font-family: "Garamond", serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: #000000;
+    margin-top: 10;
+    text-align: left;
+}
+
+
+/********** About Us Page Styles *******/
+
+/**#about-page #home-image img{
     float: left;
     margin-bottom: 20px;
 }
@@ -307,17 +397,94 @@ footer {
 
 #about-page .description{
     clear: both;
+}**/
+
+#about-page .map{
+    float: left;
+    margin-top: 25px;
+    margin-right: 70px;
+    margin-bottom: 70px;
+    border: 1px solid #ed02da;
 }
 
+#about-page .contactus a{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding: 10px 24px 10px 24px;
+    border: 3px dotted;
+    font-weight: bold;
+    color: #000000;
+    display: inline-block;
+}
+
+#about-page a{
+    text-decoration: none;
+    background-color: transparent;
+}
+#about-page a:hover{
+    color: #ed02da;
+}
+
+
 /******** Contact Page Styles *********/
+
+/*#contact #page .content{
+    margin: 77px 0 30px o;
+}
+
+#contact #page .row{
+    max-width: 75rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+#contact #page .row::before, .row::after{
+    content: '';
+    display: table;
+}
+#contact #page .column{
+    width: 100%;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    float: left;
+}
+
+#contact #page.desc{
+    margin-top: 50px;
+}
+#contact #page.droplist{
+    margin: 40px 0;
+}
+div{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #404040;
+}**/
+
+/**#contact .main{
+    margin: 0;
+    padding: 5px;
+    background-color: lightgray;
+    font-family: Georgia;
+}
+#contact .main >h1 {
+    margin: 10px;
+    padding: 5px;
+}
+#contact .main p{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+}
 
 #contact #form {
 
      width: 500px;
-     padding: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
      margin: 0 auto;
      box-shadow: 0px 9px 13px 5px;
      border-radius: 5px;
+    background: #ffffff;
 }
 
 #contact #form input {
@@ -335,7 +502,85 @@ footer {
 }
 
 #contact #form #submit {
-    height: 30px;
-    background: rgb(59, 118, 135);
+    background: green;
+border-color: transparent;
+color: #fff;
+font-size: 20px;
+font-weight: bold;
+letter-spacing: 1px;
+height: 50px;
+margin-top: 20px;
 }
+
+.container, .container-lg, .container-md, .container-sm, .container-xl{
+    max-height: 1140px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.col-lg-12{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+h1{
+    font-size: 52px;
+    font-weight: bold;
+    color: #000000;
+}**/
+
+#contact input[type=text], textarea {
+    width: 95%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+#contact label{
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+#contact input[type=submit]{
+    width: 100%;
+    margin-top: 0;
+    background-color: #4CAF50;
+    color: #ffffff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+#contact input[type=submit]:hover{
+    background-color: #45a049;
+}
+
+#contact .col-25{
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+#contact .col-75{
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+#contact #form {
+    width: 650px;
+    padding: 10px 10px 10px 10px;
+     margin: 0 auto;
+     border-radius: 5px;
+    background: #ffffff;
+}
+
+#contact #form .form-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 
