@@ -194,10 +194,10 @@ float: right;
 }
 
 div{
-    font-family: 'Raleway', sans-serif;
+    font-family: "Garamond", serif;
     font-weight: 400;
     font-size: 18px;
-    color:#404040;
+    color:#000000;
 
 }
 
@@ -534,7 +534,8 @@ h1{
 #contact input[type=text], textarea {
     width: 95%;
     padding: 12px;
-    border: 1px solid #ccc;
+    border: none;
+    border-bottom: 3px solid #37b54b;
     border-radius: 4px;
     resize: vertical;
 }
@@ -544,9 +545,9 @@ h1{
 }
 
 #contact input[type=submit]{
-    width: 100%;
-    margin-top: 0;
-    background-color: #4CAF50;
+    width: 75%;
+    margin-top: 10px;
+    background-color: #37b54b;
     color: #ffffff;
     padding: 12px 20px;
     border: none;
@@ -555,7 +556,7 @@ h1{
     float: right;
 }
 #contact input[type=submit]:hover{
-    background-color: #45a049;
+    background-color: #37b54b;
 }
 
 #contact .col-25{
@@ -571,10 +572,11 @@ h1{
 
 #contact #form {
     width: 650px;
-    padding: 10px 10px 10px 10px;
+    padding: 10px 30px 30px 30px;
      margin: 0 auto;
+    margin-bottom: 100px;
      border-radius: 5px;
-    background: #ffffff;
+    background: #ebfaed;
 }
 
 #contact #form .form-row:after {
