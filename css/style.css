@@ -281,11 +281,11 @@ p{
     display: inline-block;
 }**/
 
-#tours .content-img img .imagecontent{
-  height: 298px;
+#tours .imagecontent{
+  height: 220px;
     margin-bottom: 9px;
     position: relative;
-    width: 301px;
+    /*width: 301px;*/
     float: left;
     text-align: center;
     padding: 15px;
